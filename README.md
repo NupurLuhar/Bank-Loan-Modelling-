@@ -1,2 +1,8 @@
 # Bank-Loan-Modelling-
 Bank loan modeling using logistic regression predicts the likelihood of loan approval based on factors like income, credit score, and employment. The model calculates probabilities of repayment or default, helping banks make informed, data-driven decisions to manage risk and allocate resources effectively.
+
+In this bank loan modeling project, I applied machine learning techniques, focusing on logistic regression, to predict the likelihood of loan approval. The model was trained using historical data, including factors such as applicant income, credit score, employment status, loan amount, and existing debt. Logistic regression was chosen for its ability to classify applicants into two categories: likely to repay or likely to default.
+
+The project began by preprocessing the data, handling missing values, and normalizing numerical features. I then split the data into training and testing sets, using the training data to fit the logistic regression model. After training, I evaluated the model’s performance through metrics like accuracy, precision, recall, and the ROC-AUC curve, ensuring the model could effectively identify high-risk applicants.
+
+By using this predictive model, the bank can make more data-driven decisions, minimizing risk and improving resource allocation. The logistic regression model provides a clear probability score for each applicant, which assists in determining the potential for repayment and default. This project demonstrates the power of machine learning in automating decision-making and enhancing financial risk management processes.
